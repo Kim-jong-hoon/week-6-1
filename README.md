@@ -16,6 +16,14 @@
 
 - **경로 계획(Path Planning):** PyTorch는 자율주행 차량의 경로를 계산하고 최적화하는 데 사용될 수 있습니다. 강화 학습(Deep Reinforcement Learning)을 이용한 자율주행 차량의 행동 계획에 적용될 수 있습니다.
 
-### 설치 방법
-```bash
-pip install torch torchvision
+🔍 TensorRT의 역할
+<br>❌ TensorRT가 하지 않는 것
+<br>🚫 딥러닝 훈련 (Training)
+<br>🚫 가중치 학습
+<br>🚫 역전파 (Backpropagation)
+<br>🚫 모델 개발
+<br>✅ TensorRT가 하는 것
+<br>⚡ 추론만 (Inference Only)
+<br>🔧 모델 최적화
+<br>📦 엔진 변환
+🚀 실행 가속
